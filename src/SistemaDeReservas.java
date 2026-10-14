@@ -88,7 +88,7 @@ public class SistemaDeReservas {
         }
         System.out.println("\n--- Reservas cadastradas ---");
         for (int i = 0; i < quantidade; i++) {
-            System.out.println((i + 1) + ") " + reservas[i]); // usa toString()
+            System.out.println((i + 1) + ") " + reservas[i]);
         }
     }
 
